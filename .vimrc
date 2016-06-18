@@ -1,4 +1,6 @@
- want this anyways)
+" vundle {{{1
+
+" needed to run vundle (but i want this anyways)
 set nocompatible
 
 " vundle needs filtype plugins off
@@ -20,7 +22,7 @@ Plugin 'VundleVim/Vundle.vim'
 " to install a plugin add it here and run :PluginInstall.
 " to update the plugins run :PluginInstall! or :PluginUpdate
 " to delete a plugin remove it here and run :PluginClean
-" 
+"
 
 " YOUR LIST OF PLUGINS GOES HERE LIKE THIS:
 Plugin 'bling/vim-airline'
