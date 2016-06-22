@@ -9,3 +9,4 @@ ignore everything
 !.bashrc
 !.bash_profile
 !.tmux.conf
+!.zshrc
