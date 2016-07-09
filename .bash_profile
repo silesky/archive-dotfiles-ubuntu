@@ -7,6 +7,7 @@ alias sub='/usr/bin/subl'
 alias catbash='cat ~/.bash_profile && cat ~/.bashrc'
 alias sourcebash='source ~/.bashrc && source ~/.bash_profile'
 alias srv='live-server'
+alias l='ls -al'
 
 # Projects
 alias pract='cd ~/proj/practicetimer'
