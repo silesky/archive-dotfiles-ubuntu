@@ -10,3 +10,6 @@ ignore everything
 !.bash_profile
 !.tmux.conf
 !.zshrc
+!touchpad.sh
+!autopush.sh
+!.vim
