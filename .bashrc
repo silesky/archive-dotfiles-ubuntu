@@ -116,3 +116,5 @@ fi
 
 export NVM_DIR="/home/asus/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH=/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/asus/.vimpkg/bin

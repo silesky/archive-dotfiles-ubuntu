@@ -18,3 +18,5 @@ alias coop='cd ~/proj/coopla-static'
 
 # Scripts to run
 . ~/touchpad.sh
+
+export PATH=/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/asus/.vimpkg/bin

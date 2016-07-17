@@ -12,6 +12,6 @@ ignore everything
 !.zshrc
 !touchpad.sh
 !autopush.sh
-!.vim
-!.vim/*
-!.vim/*/*
+!/.vim/
+!/.vim/*
+!/.vim/*/*

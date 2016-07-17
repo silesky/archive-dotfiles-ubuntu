@@ -37,3 +37,5 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+export PATH=/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/asus/.vimpkg/bin

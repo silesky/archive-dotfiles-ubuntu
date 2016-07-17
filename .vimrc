@@ -42,3 +42,5 @@ map <Esc><Esc> :w<CR>
 set backspace=indent,eol,start
 " " make system clipboard work
 set clipboard=unnamed
+execute pathogen#infect()
+call pathogen#helptags()
