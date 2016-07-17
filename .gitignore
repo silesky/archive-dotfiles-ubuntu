@@ -13,3 +13,4 @@ ignore everything
 !touchpad.sh
 !autopush.sh
 !.vim
+!.vim/*

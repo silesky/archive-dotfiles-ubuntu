@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/asus/.config/autostart'
+let g:netrw_dirhist_2='/home/asus/proj'
+let g:netrw_dirhist_3='/home/asus/proj/practicetimer/app/components'
+let g:netrw_dirhist_4='/home/asus/proj/practicetimer'
+let g:netrw_dirhist_5='/home/asus/Downloads'
