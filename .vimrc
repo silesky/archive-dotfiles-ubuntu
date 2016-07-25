@@ -25,6 +25,7 @@ Plugin 'VundleVim/Vundle.vim'
 "
 
 " YOUR LIST OF PLUGINS GOES HERE LIKE THIS:
+Plugin 'wincent/command-t'
 Plugin 'bling/vim-airline'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'Valloric/YouCompleteMe'
@@ -36,6 +37,7 @@ filetype plugin indent on
 syntax on
 set nowrap
 set nu
+set noswapfile
 " save when you hit escape twice
 map <Esc><Esc> :w<CR>
 " make backapsace work like normal
@@ -44,3 +46,11 @@ set backspace=indent,eol,start
 set clipboard=unnamed
 execute pathogen#infect()
 call pathogen#helptags()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']

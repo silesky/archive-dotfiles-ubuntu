@@ -8,13 +8,16 @@ alias chr='google-chrome'
 alias s='/usr/bin/subl'
 alias catbash='cat ~/.bash_profile && cat ~/.bashrc'
 alias sourcebash='source ~/.bashrc && source ~/.bash_profile'
+alias reprof='source ~/.bashrc && source ~/.bash_profile'
 alias srv='live-server'
 alias l='ls -al'
+alias ljs="ls -al *.js"
 
 # Projects
+alias proj='cd ~/proj'
 alias pract='cd ~/proj/practicetimer'
 alias coop='cd ~/proj/coopla-static'
-
+alias devt='cd ~/proj/devt-eslint'
 
 # Scripts to run
 . ~/touchpad.sh
