@@ -2,16 +2,34 @@ ignore everything
 *
 
 # But not these files...
+
+# ubuntu specifc
+!touchpad.sh
+
+# general
 !.atom
 !.gitignore
 !.gitignore_global
 !.vimrc
 !.bashrc
 !.bash_profile
+!.bash_functions
+!.paths
 !.tmux.conf
+!.vagrant.d
+!.rvm
 !.zshrc
-!touchpad.sh
 !autopush.sh
+/.vim/.netrwhist!/
 !/.vim/
 !/.vim/*
-!/.vim/*/*
+!/.vim/**/*
+
+
+!.tern-config
+!/.alfred_sync
+!/.alfred_sync/**/*
+!/.oh-my-zsh/**/*
+!/scripts/*
+!scripts
+
