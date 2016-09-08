@@ -1,4 +1,3 @@
-# .bash_profile
 
 set -o vi
 
@@ -55,10 +54,10 @@ alias inputrc="vim ~/.inputrc"
 alias bashprof="vim ~/.bash_profile"
 alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
+alias PluginInstall="vim +PluginInstall +qall"
 
 
-
-# 
+#
 # ... git
 alias gs="git status -sb"
 alias git.s="git status"
@@ -69,6 +68,7 @@ alias git.log='git log --graph --decorate --pretty=oneline --abbrev-commit'
 # git config --global color.status auto
 
 # ... tmux
+alias tmux="TERM=screen-256color-bce tmux"
 alias tm="tmux"
 alias tm.swc="tmux switch-client -t"
 alias tm.ks="tmux kill-session -t"
