@@ -49,6 +49,8 @@ alias eslintrc="vim ~/.eslintrc"
 alias nodemod="vim ~/.nodemodules.txt"
 alias bash_functions="vim ~/.bash_functions"
 alias prof="vim ~/.bash_profile"
+alias gitconfig="vim ~/.gitconfig"
+alias gitignore="vim ~/.gitignore_global"
 alias zshrc="vim ~/.zshrc"
 alias inputrc="vim ~/.inputrc"
 alias bashprof="vim ~/.bash_profile"
@@ -62,7 +64,7 @@ alias PluginInstall="vim +PluginInstall +qall"
 alias gs="git status -sb"
 alias git.s="git status"
 alias git.log='git log --graph --decorate --pretty=oneline --abbrev-commit'
-
+alias gd="git difftool &"
 # git config --global color.ui auto
 # git config --global color.branch auto
 # git config --global color.status auto
