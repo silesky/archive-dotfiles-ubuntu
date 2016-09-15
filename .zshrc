@@ -1,13 +1,25 @@
-source ~/.bash_profile
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/asus/.oh-my-zsh
- 
+export ZSH=~/.oh-my-zsh
+
+# inputrc isn't read in bash
+# http://unix.stackexchange.com/questions/97843/how-can-i-search-history-with-what-is-already-entered-at-the-prompt-in-zsh
+# ctrl up and down
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+bindkey "^R" history-incremental-search-backward
+
+# ZSH uses the KEYTIMEOUT parameter to determine how long to wait
+#  for additional key sequences.
+
+KEYTIMEOUT=1
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="lambda"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +63,7 @@ ZSH_THEME="lambda"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git, tmux, vi-mode, grunt)
 
 # User configuration
 
@@ -84,3 +96,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source ~/.bash_profile

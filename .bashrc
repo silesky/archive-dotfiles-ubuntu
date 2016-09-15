@@ -1,4 +1,3 @@
-source ~/.bash_profile
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -118,3 +117,6 @@ export NVM_DIR="/home/asus/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH=/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/home/asus/bin:/usr/local/lib/node_modules/:/home/asus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/asus/.vimpkg/bin
+
+LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
+export LS_COLORS
