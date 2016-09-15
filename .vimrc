@@ -1,3 +1,6 @@
+so ~/.vimrc_osx.vim
+so ~/.vimrc_linux.vim
+
 if empty(glob("~/.vim/autoload/plug.vim"))
   execute '!mkdir -p ~/.vim/ ~/.vim/autoload ~/.vim/bundle'
   execute '!curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim'
@@ -58,7 +61,7 @@ filetype plugin indent on
 set autoindent " o goes down and then matches the indentation of the prev line
 map <F8> gg=G``:echoerr 'Auto indented.'<CR>
 " reload myvimrc with alt-r
-map ® :so $MYVIMRC<CR>:echoerr '$MYVIMRC Reloaded.'<CR>
+
 
 syntax on
 syntax enable
@@ -93,7 +96,7 @@ set showbreak=" "
 "display line next to cursor
 " set cursorline
 "common mistake of q: instead of :q
-map q: :q
+" map q: :q
 " keybindings
 noremap <F2> :lnext<CR> "syntastic skip to error
 
@@ -103,7 +106,7 @@ noremap <F2> :lnext<CR> "syntastic skip to error
 set mouse=a
 
 set backspace=indent,eol,start
-set clipboard=unnamed
+set clipboard=unnamedplus
 set backupcopy=yes
 
 set noswapfile " no swap file
@@ -128,10 +131,6 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
 
-" change cursor shapase based on insert mode
-" http://blog.terriblelabs.com/blog/2013/02/09/stupid-vim-tricks-how-to-change-insert-mode-cursor-shape-with-tmux/
-" let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-" let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 
 " wrap toggle
 function! ToggleWrap()
